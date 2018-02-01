@@ -1,0 +1,533 @@
+/* line 11, ../compass/sass/_home.scss */
+.navbar {
+  margin-bottom: 0;
+  margin-top: -60px;
+  font-family: 'Quantico';
+}
+/* line 15, ../compass/sass/_home.scss */
+.navbar a {
+  position: relative;
+}
+/* line 17, ../compass/sass/_home.scss */
+.navbar a a {
+  color: white;
+  z-index: 25;
+}
+
+/* line 24, ../compass/sass/_home.scss */
+.navbar-wrapper-xs {
+  top: 0;
+  left: 0;
+  z-index: 101;
+  margin-bottom: 0;
+  border-radius: 0;
+  font-size: 17px;
+  font-family: 'Quantico';
+}
+/* line 40, ../compass/sass/_home.scss */
+.navbar-wrapper-xs a {
+  z-index: 102;
+}
+/* line 43, ../compass/sass/_home.scss */
+.navbar-wrapper-xs a a {
+  z-index: 103;
+  color: white;
+  text-decoration: none;
+}
+/* line 48, ../compass/sass/_home.scss */
+.navbar-wrapper-xs a:hover {
+  color: orange;
+}
+
+/* line 54, ../compass/sass/_home.scss */
+.navbar-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  margin-bottom: 0;
+  border-radius: 0;
+  height: 60px;
+  line-height: 60px;
+  background-color: white;
+  font-size: 17px;
+  letter-spacing: -0.1px;
+  font-family: 'Quantico';
+  border-bottom: 2.5px solid rgba(0, 0, 0, 0.1);
+}
+/* line 70, ../compass/sass/_home.scss */
+.navbar-wrapper a {
+  color: black;
+  text-decoration: none;
+}
+/* line 74, ../compass/sass/_home.scss */
+.navbar-wrapper a:hover {
+  color: orange;
+}
+
+/* line 79, ../compass/sass/_home.scss */
+.active {
+  padding: 5px;
+  text-decoration: none;
+  border-bottom: 3px solid orange;
+  color: orange;
+  transition: padding .3s;
+}
+
+/* line 86, ../compass/sass/_home.scss */
+.navbar-inverse {
+  border: none;
+}
+
+/* line 89, ../compass/sass/_home.scss */
+.navbar-inside-wrapper {
+  position: relative;
+  margin: auto;
+  width: 750px;
+}
+/* line 93, ../compass/sass/_home.scss */
+.navbar-inside-wrapper .each-nav-item {
+  display: inline-block;
+  text-align: center;
+  width: 150px;
+}
+/* line 99, ../compass/sass/_home.scss */
+.navbar-inside-wrapper .ironspirits-logo {
+  display: inline-block;
+  width: 150px;
+  position: relative;
+  text-align: center;
+}
+/* line 104, ../compass/sass/_home.scss */
+.navbar-inside-wrapper .ironspirits-logo img {
+  height: 45px;
+  width: 50px;
+}
+
+/* line 116, ../compass/sass/_home.scss */
+.faded-carousel-image {
+  filter: brightness(60%);
+}
+
+/* line 125, ../compass/sass/_home.scss */
+.carousel-and-text {
+  position: relative;
+}
+
+/* line 130, ../compass/sass/_home.scss */
+.carousel-text-wrapper {
+  position: absolute;
+  top: 30px;
+  left: 55px;
+  right: 55px;
+  margin: auto;
+  z-index: 20;
+  text-align: center;
+}
+/* line 138, ../compass/sass/_home.scss */
+.carousel-text-wrapper .carousel-text-header {
+  font-family: 'Archivo Black';
+  font-size: 60px;
+  margin: auto;
+  margin-top: 14vh;
+  color: white;
+}
+/* line 146, ../compass/sass/_home.scss */
+.carousel-text-wrapper .carousel-text-body .carousel-slogan {
+  margin-top: 8vh;
+  font-size: 25px;
+  color: white;
+  letter-spacing: 2px;
+}
+/* line 152, ../compass/sass/_home.scss */
+.carousel-text-wrapper .carousel-text-body .carousel-quote {
+  margin-top: 14vh;
+  font-size: 35px;
+  color: white;
+  font-family: "Calligraffitti";
+  letter-spacing: 1.5px;
+  text-shadow: 1.2px 1.2px black;
+}
+
+@media (max-width: 1200px) {
+  /* line 166, ../compass/sass/_home.scss */
+  .carousel-text-wrapper {
+    position: absolute;
+    top: 30px;
+    left: 55px;
+    right: 55px;
+    margin: auto;
+    z-index: 20;
+    text-align: center;
+  }
+  /* line 174, ../compass/sass/_home.scss */
+  .carousel-text-wrapper .carousel-text-header {
+    font-family: 'Archivo Black';
+    font-size: 60px;
+    margin-top: 9vh;
+    color: white;
+  }
+  /* line 181, ../compass/sass/_home.scss */
+  .carousel-text-wrapper .carousel-text-body .carousel-slogan {
+    margin-top: 5vh;
+    font-size: 25px;
+    color: white;
+    letter-spacing: 2px;
+  }
+  /* line 187, ../compass/sass/_home.scss */
+  .carousel-text-wrapper .carousel-text-body .carousel-quote {
+    margin-top: 11vh;
+    font-size: 35px;
+    color: white;
+    font-family: "Calligraffitti";
+    letter-spacing: 1px;
+    text-shadow: 1.2px 1.2px black;
+  }
+}
+@media (max-width: 800px) {
+  /* line 199, ../compass/sass/_home.scss */
+  .carousel-text-wrapper {
+    position: absolute;
+    top: 10px;
+    left: 55px;
+    right: 55px;
+    margin: auto;
+    z-index: 20;
+    text-align: center;
+  }
+  /* line 207, ../compass/sass/_home.scss */
+  .carousel-text-wrapper .carousel-text-header {
+    font-family: 'Archivo Black';
+    font-size: 38px;
+    margin-top: 20px;
+    color: white;
+  }
+  /* line 214, ../compass/sass/_home.scss */
+  .carousel-text-wrapper .carousel-text-body .carousel-slogan {
+    margin-top: 23px;
+    font-size: 17px;
+    color: white;
+    letter-spacing: 2px;
+  }
+  /* line 220, ../compass/sass/_home.scss */
+  .carousel-text-wrapper .carousel-text-body .carousel-quote {
+    margin-top: 50px;
+    font-size: 18px;
+    color: white;
+    font-family: "Calligraffitti";
+    letter-spacing: 1px;
+    text-shadow: 1.2px 1.2px black;
+  }
+}
+@media (max-width: 450px) {
+  /* line 233, ../compass/sass/_home.scss */
+  .carousel-text-wrapper {
+    position: absolute;
+    top: 10px;
+    left: 55px;
+    right: 55px;
+    margin: auto;
+    z-index: 20;
+    text-align: center;
+  }
+  /* line 241, ../compass/sass/_home.scss */
+  .carousel-text-wrapper .carousel-text-header {
+    font-family: 'Archivo Black';
+    font-size: 27px;
+    margin-top: 10px;
+    color: white;
+  }
+  /* line 248, ../compass/sass/_home.scss */
+  .carousel-text-wrapper .carousel-text-body .carousel-slogan {
+    margin-top: 20px;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 2px;
+  }
+  /* line 254, ../compass/sass/_home.scss */
+  .carousel-text-wrapper .carousel-text-body .carousel-quote {
+    margin-top: 40px;
+    font-size: 16px;
+    color: white;
+    font-family: "Calligraffitti";
+    letter-spacing: 1px;
+    text-shadow: 1.3px 1.3px black;
+  }
+}
+/* line 267, ../compass/sass/_home.scss */
+.width100vw {
+  clear: both;
+  width: 100vw;
+}
+
+/* line 271, ../compass/sass/_home.scss */
+.after-bootstrap-placeholder {
+  width: 100%;
+  clear: left;
+}
+
+/* line 280, ../compass/sass/_home.scss */
+.offering-header {
+  width: 100%;
+  height: 90px;
+  line-height: 90px;
+  background-color: #FFB52C;
+  font-family: 'Archivo Black';
+  font-size: 28px;
+  text-align: center;
+  font-weight: 900;
+  color: white;
+}
+
+/* line 297, ../compass/sass/_home.scss */
+.offering-body {
+  background-color: white;
+  padding-top: 20px;
+  color: darkorange;
+}
+
+/* line 303, ../compass/sass/_home.scss */
+.each-offering-wrapper {
+  width: 88%;
+  margin-left: 6%;
+}
+
+/* line 307, ../compass/sass/_home.scss */
+.each-offering {
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Teko';
+  height: 200px;
+  padding-top: 30px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+/* line 316, ../compass/sass/_home.scss */
+.each-icon-offering {
+  margin-bottom: 20px;
+  width: 30%;
+}
+
+/* line 325, ../compass/sass/_home.scss */
+.specialty-header {
+  width: 100%;
+  height: 90px;
+  line-height: 90px;
+  font-family: 'Archivo Black';
+  font-size: 28px;
+  text-align: center;
+  font-weight: 900;
+  background-color: #006FBA;
+  color: white;
+}
+
+/* line 338, ../compass/sass/_home.scss */
+.specialty-body {
+  background-color: white;
+  padding-top: 20px;
+  color: #343c6b;
+}
+
+/* line 343, ../compass/sass/_home.scss */
+.each-specialty-wrapper {
+  width: 88%;
+  margin-left: 6%;
+}
+
+/* line 347, ../compass/sass/_home.scss */
+.each-specialty {
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Teko';
+  height: 200px;
+  padding-top: 30px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+/* line 365, ../compass/sass/_home.scss */
+.difference-wrapper {
+  opacity: 1;
+  overflow: hidden;
+  background-color: white;
+  position: relative;
+}
+
+/* line 372, ../compass/sass/_home.scss */
+.difference-wrapper:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-image: url("../../src/home/images/home.png");
+  background-size: contain;
+  opacity: .05;
+}
+
+/* line 386, ../compass/sass/_home.scss */
+.difference-header {
+  width: 100%;
+  height: 90px;
+  line-height: 90px;
+  background-color: #f1f1f1;
+  font-family: 'Archivo Black';
+  font-size: 28px;
+  text-align: center;
+  font-weight: 900;
+  color: #3c3c3c;
+}
+
+/* line 398, ../compass/sass/_home.scss */
+.difference-header-text {
+  padding-top: 40px;
+  width: 86%;
+  margin-left: 7%;
+  font-size: 20px;
+}
+
+/* line 405, ../compass/sass/_home.scss */
+.each-difference-wrapper {
+  width: 88%;
+  margin-left: 6%;
+  padding-bottom: 40px;
+}
+
+/* line 411, ../compass/sass/_home.scss */
+.each-difference-header {
+  font-size: 20px;
+  font-weight: 900;
+  padding-bottom: 10px;
+  padding-top: 40px;
+  text-align: left;
+}
+
+/* line 418, ../compass/sass/_home.scss */
+.each-difference {
+  font-size: 16px;
+}
+
+/* line 431, ../compass/sass/_home.scss */
+.home-footer {
+  height: 140px;
+  background-color: orange;
+  padding-top: 15px;
+  text-align: center;
+  position: relative;
+}
+/* line 437, ../compass/sass/_home.scss */
+.home-footer .footer-wrapper {
+  width: 88%;
+  margin-left: 6%;
+}
+
+/* line 443, ../compass/sass/_home.scss */
+.footer-connect {
+  font-family: "Teko";
+  font-weight: 900;
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: white;
+  padding-bottom: 5px;
+}
+
+/* line 451, ../compass/sass/_home.scss */
+.each-logo {
+  width: 40px;
+  padding-bottom: 7px;
+}
+
+/* line 455, ../compass/sass/_home.scss */
+.each-logo:hover {
+  transition: transform .3s, border .3s;
+  transform: scale(1.25);
+  border-bottom: 3px solid white;
+  padding-bottom: 4px;
+}
+
+/* line 463, ../compass/sass/_home.scss */
+.rights {
+  position: absolute;
+  bottom: 5px;
+  width: 88%;
+  color: #f0f0f0;
+}
+
+/* line 13, ../compass/sass/_about.scss */
+.about-header .about-header-text {
+  color: black;
+  padding: 50px 0;
+  width: 86%;
+  margin-left: 7%;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: .7px;
+}
+
+/* line 28, ../compass/sass/_about.scss */
+.about-body-header {
+  width: 100%;
+  height: 90px;
+  line-height: 90px;
+  font-family: 'Archivo Black';
+  font-size: 25px;
+  text-align: center;
+  font-weight: 900;
+  background-color: #FFB52C;
+  color: white;
+  margin-bottom: 70px;
+}
+
+/* line 41, ../compass/sass/_about.scss */
+.about-body-col-header {
+  font-family: 'Archivo Black';
+  font-size: 16px;
+  color: orange;
+  margin-bottom: 7px;
+}
+
+/* line 47, ../compass/sass/_about.scss */
+.about-body-col-description {
+  font-size: 14px;
+  margin-bottom: 30px;
+  font-weight: 500;
+  color: black;
+}
+
+/* line 53, ../compass/sass/_about.scss */
+.about-body-col-left {
+  padding: 15px;
+  padding-top: 50px;
+  width: 32%;
+  float: left;
+}
+
+/* line 60, ../compass/sass/_about.scss */
+.about-body-col-right {
+  padding: 15px;
+  padding-top: 0;
+  width: 32%;
+  float: left;
+}
+
+/* line 67, ../compass/sass/_about.scss */
+.about-body-col-image {
+  width: 36%;
+  float: left;
+}
+/* line 70, ../compass/sass/_about.scss */
+.about-body-col-image img {
+  width: 100%;
+}
+
+/* line 5, ../compass/sass/styles.scss */
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  padding-top: 60px;
+}
