@@ -96,7 +96,6 @@ $darkblue:#162536;
 	left:0;
 	height:200px;
 	width:100%;
-	background-image: url('../../src/home/images/h1-1.jpeg');
 	background-size: 100%;
 }
 
@@ -146,9 +145,7 @@ $darkblue:#162536;
 	font-size: 18px;
 	line-height: 455%;
 	min-width: 458px;
-	// letter-spacing: 1px;
-	// font-weight: 100;
-	// color:rgb(110,110,110);
+
 }
 .philosophy-strong{
 	color: darkblue;
@@ -167,24 +164,13 @@ $social-media-bg: #fff9c4;
 	line-height: 150px;
 	height: 100px;
 	background-color: rgba(50,50,50,0.6);
-	// background-color: $dark;
 	color: white;
 	font-family: 'Lato';
-	// box-shadow: 5px 5px 5px black;
 } 
 .home-footer1{
-	// height: 140px;
-	// padding-top: 15px;
 	text-align: center;
 	position: relative;
-	
-	// background-color: $social-media-bg;
 	.social-media-wrapper{
-
-		// box-shadow:         iset 0 -5px 20px rgba(80,80,80,0.8);
-		// width:88%;
-		// margin-left:6%;
-		// height:auto;
 		background-color: rgba(50,50,50,0.6);
 		height:300px;
 		img{margin-top:100px;width:80px

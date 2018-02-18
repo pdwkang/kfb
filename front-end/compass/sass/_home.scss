@@ -1,8 +1,8 @@
 //------------------//
 //-----Variables----//
 //------------------//
-$navbar-color: orange;
-$body-element-color: darkorange;
+$navbar-color: skyblue;
+$body-element-color: skyblue;
 
 
 //----------------//
@@ -21,36 +21,11 @@ $body-element-color: darkorange;
 		}
 	}
 }
-.navbar-wrapper-xs{
-	// position: absolute;
-	top:0;
-	left:0;
-	z-index: 101;
-	// width:100vw;
-	margin-bottom: 0;
-	border-radius: 0;
-	// height:60px;
-	// line-height: 60px;
-	// background-color: white;
-	font-size: 14px;
-	// letter-spacing: -0.1px;
-	// font-weight: 900;
-	// font-family: 'Quantico';
-	// border-bottom: 2.5px solid rgba(0,0,0,0.1);
-	a{
-		// color: black;
-		z-index: 102;
-		a{
-			z-index: 103;
-		color: white;
-		text-decoration: none;}
-	}
-	a:hover{
-		color:$navbar-color;
-	}
+
+$navbar-height: 145px;
+body{
+	padding-top:$navbar-height;
 }
-
-
 .navbar-wrapper{
 	position: fixed;
 	top:0;
@@ -59,14 +34,11 @@ $body-element-color: darkorange;
 	width:100vw;
 	margin-bottom: 0;
 	border-radius: 0;
-	height:60px;
-	line-height: 60px;
-	background-color: white;
-	letter-spacing: -0.1px;
-	// border-bottom: 2.5px solid rgba(0,0,0,0.1);
+	height:$navbar-height;
 	font-family: 'Montserrat';
 	font-size: 14px;
-	font-weight: 400;	
+	background-color: white;
+	opacity: .98;
 	a{
 		color: black;
 		text-decoration: none;
@@ -74,8 +46,23 @@ $body-element-color: darkorange;
 	a:hover{
 		color:$navbar-color;
 	}
+	border-bottom:1px solid black;
 }
-
+.navbar-inside-wrapper{
+	position: relative;
+	margin:auto; 
+	width:100%;
+	padding-left:10vw;
+	margin-top:30px;
+	.each-nav-item{
+		display: inline-block;
+		text-align: center;
+		width: 10vw ;
+		.active{
+			color:$navbar-color;
+		}
+	}	
+}
 .active{
 	padding:5px;
 	text-decoration: none;
@@ -86,71 +73,7 @@ $body-element-color: darkorange;
 .navbar-inverse{border:none;}
 
 
-.navbar-inside-wrapper{
-	position: relative;
-	margin:auto; 
-	width:70%;
-	// margin-left: 24%;
-	.each-nav-item{
-		display: inline-block;
-		text-align: center;
-		width: 17% ;
-		.active{
-			color:darkorange;
-		}
-	}	
-	.ironspirits-logo{
-		display: inline-block;
-		width:32%;
-		position: relative;
-		text-align: center;
-		&:hover{
-			img{
-				transform:rotateY(360deg);
-				transition:transform 1s;
-				opacity: 0.8;
-			}
-		}
-		.ironspirits-letters{
-			z-index: 5;
-			position: absolute;
-			left:0;
-			right:0;
-			top:-35px;
-			font-size: 18px;
-			.iron-letters{
-				letter-spacing: 2px;
-			}
-		}
-		img{
-			position: absolute;
-			padding:10px;
-			height:83px;
-			width:83px;
-			left:0;
-			right:0;
-			margin:auto;
-			top:-35px;
-			border-radius: 50%;
-			// transform:rotate(45deg);
-			overflow: hidden;
-			
-		}
-		.logo-tilt{
-			width:70px;
-			height:70px;
-			transform:rotate(45deg);
-			position: absolute;
-			left:0;
-			right:0;
-			margin:auto;
-			bottom:-59px;
-			background-color: white;
-			// border-bottom: 2.5px solid rgba(0,0,0,0.1);
-			// border-right: 2.5px solid rgba(0,0,0,0.1);
-		}
-	}
-}
+
 
 
 
@@ -351,7 +274,7 @@ $body-element-color: darkorange;
 }
 
 .offering-body{
-	background-color: white;
+	// background-color: white;
 	padding-top:20px;
 	color:$body-element-color;
 }
@@ -392,7 +315,7 @@ $body-element-color: darkorange;
 	// border-top: #343c6b 2px solid;
 }
 .specialty-body{
-	background-color: white;
+	// background-color: white;
 	padding-top:20px;
 	color:#343c6b;
 }
@@ -421,7 +344,7 @@ $body-element-color: darkorange;
 .difference-wrapper{
 	opacity: 1;
 	overflow: hidden;
-	background-color: white;
+	// background-color: white;
 	position: relative;
 
 }
@@ -434,7 +357,6 @@ $body-element-color: darkorange;
     width: 100%;
     height: 100%;
     z-index: 1;
-	background-image: url('../../src/home/images/home.png');
 	background-size: contain;
 	opacity: .05;    
 }
@@ -459,7 +381,7 @@ $body-element-color: darkorange;
 	width: 100%;
 	height:90px;
 	line-height: 90px;
-	background-color: rgba(241,241,241,1);
+	// background-color: rgba(241,241,241,1);
 	font-family: 'Archivo Black';
 	font-size: 28px;
 	text-align: center;
@@ -545,4 +467,27 @@ $body-element-color: darkorange;
 
 .dont-hide{
 	display: block;
+}
+
+.registry-card{
+	margin:auto;
+	width:280px;
+	margin:30px;
+	height:230px;
+	padding-top:50px;
+	display: inline-block;
+	border:1px solid rgba(0,0,0,0.1);
+	box-shadow: 4px 3px 8px rgba(50,50,50,0.3);
+	text-align: center;
+	opacity:.85;
+	img{
+		width:150px;
+		height:auto;
+	}
+	&:hover{
+		opacity: 1;
+		filter:brightness(40%);
+		cursor: pointer;	
+		// Some sort of hover effect for button click animation
+	}
 }

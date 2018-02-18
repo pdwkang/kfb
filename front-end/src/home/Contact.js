@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
 import { hashHistory } from 'react-router';
-import MyGoogleMap from '../contact/GoogleMap.js'
 
 class ContactForm extends Component {
 	handleContact(event){
@@ -64,7 +63,6 @@ class ContactForm extends Component {
 				</div>
 				<div style={{position:'absolute', left:'50%', height:352, width:'40%'}} >	
 					<div className='contact-form-label'>How To Find Us</div>
-					<MyGoogleMap/>
 				</div>
 				<a href='https://maps.google.com/maps?v=2&f=q&ie=UTF8&t=m&iwloc=&q=6020+Parkway+North+Drive%2c+Cumming%2c+GA%2c+United+States&z=13&source=embed'>
 				<div className='contact-info-box'>&nbsp;&nbsp;View Larger Map</div></a>
@@ -75,8 +73,3 @@ class ContactForm extends Component {
 
 
 export default ContactForm
-				// <div className='col-sm-6'>
-				// 	<div style={{zIndex:100, height:'100vh', width:100}}>
-				// 	<MyGoogleMap />
-				// 	</div>
-				// </div>
