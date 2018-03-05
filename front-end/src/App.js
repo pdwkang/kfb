@@ -10,7 +10,7 @@ class WeddingNavBar extends React.Component {
                 <div className='navbar-wrapper'>
                     <i style={{fontSize:"12px"}}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; September 15, 2018 &nbsp;&nbsp;&nbsp; Roswell, GA</i>
                     <i style={{float:"right",fontSize:"12px"}}>#KevinfoundhisBae &nbsp;&nbsp;&nbsp;</i>
-                    <div style={{textAlign:"center", fontSize:"33px"}}> LEAH & KEVIN </div>
+                    <div style={{textAlign:"center", fontFamiy:"Monsterrat", letterSpacing:10,fontWeight:100, fontSize:"33px"}}> LEAH & KEVIN </div>
                     <div className='navbar-inside-wrapper'>
                         <div className='each-nav-item'><IndexLink activeClassName='active' to="/">Our Wedding</IndexLink></div>
                         <div className='each-nav-item'><Link activeClassName='active' to="events">Events</Link></div>

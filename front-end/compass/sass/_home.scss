@@ -1,9 +1,10 @@
 //------------------//
 //-----Variables----//
 //------------------//
-$navbar-color: skyblue;
+// $navbar-color: skyblue;
+$navbar-color: darkblue;
 $body-element-color: skyblue;
-
+$navbar-height: 130px;
 
 //----------------//
 //-----NAVBAR-----//
@@ -22,8 +23,13 @@ $body-element-color: skyblue;
 	}
 }
 
-$navbar-height: 145px;
+h1{
+	font-size:30px;
+	font-weight:100;
+}
+
 body{
+	font-family: 'Montserrat';
 	padding-top:$navbar-height;
 }
 .navbar-wrapper{
@@ -38,7 +44,8 @@ body{
 	font-family: 'Montserrat';
 	font-size: 14px;
 	background-color: white;
-	opacity: .98;
+	opacity: .96;
+	font-weight:400;
 	a{
 		color: black;
 		text-decoration: none;
@@ -46,7 +53,7 @@ body{
 	a:hover{
 		color:$navbar-color;
 	}
-	border-bottom:1px solid black;
+	border-bottom:1px solid grey;
 }
 .navbar-inside-wrapper{
 	position: relative;
@@ -66,7 +73,7 @@ body{
 .active{
 	padding:5px;
 	text-decoration: none;
-	border-bottom: 3px solid $navbar-color;
+	border-bottom: 1px solid $navbar-color;
 	color:$navbar-color;
 	transition: padding .3s;
 }
