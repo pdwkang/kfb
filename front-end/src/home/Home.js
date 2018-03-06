@@ -47,7 +47,7 @@ class Home extends Component{
 				</div>
 				<div style={{marginTop:"130px"}}>
 					<h1>HER STORY</h1>
-					<p style={{paddingTop:"20px",width:"50%", lineHeight:"24px",margin:"auto"}}>Lorem Ipsum is simply dummy <br/>text of the printing and typesetting industry. <br/>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+					<p style={{paddingTop:"20px",width:"50%", lineHeight:"24px",margin:"auto"}}>Lorem Ipsum is simply dummy <br/>text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
 				</div>
 				<div style={{marginTop:"130px"}}>
 					<h1>HIS STORY</h1>
