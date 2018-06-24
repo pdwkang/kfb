@@ -225,17 +225,22 @@ class Photos extends Component{
     render(){
         return(
             <div>
-				<div style={{marginTop:"30px", textAlign:"center"}}>
-					<h1>SOME TEXT</h1>
-					<p style={{paddingTop:"20px",width:"50%", lineHeight:"24px",margin:"auto"}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-				</div>
-                <br/>
-                <br/>
-                <div style={{width:"80%", margin:"auto"}}>
+                {/* <img className='home-photo' src={require('../../photos/7.jpg')} alt=' ' style={{width:"100%",left:0,opacity:0.5, filter:"brightness(50%)",position:"fixed",zIndex:-1, top:0}} /> */}
+                <div style={{margin:50,marginTop:0}}>
+                    <div style={{width:"100%",borderBottom:"1px solid #01385E",position:"relative"}}>
+                        <div style={{fontSize:29,fontFamily:"Montserrat", width:180,color:"#01385E",background:"white", position:"absolute",left:0,textAlign:"center",right:0,top:-23,margin:"auto"}}>Photos</div>
+                    </div>
+                {/* </div> */}
+                <br/><br/><br/>
+                <div style={{width:"100%", margin:"auto"}}>
                     <Container photos={PHOTO_SET} />
                 </div>
-                <br/>
-                <br/>
+                {/* <div style={{margin:50}}> */}
+                <br/><br/><br/>
+                    <div style={{width:"100%",borderBottom:"1px solid #01385E",position:"relative"}}>
+                        <div style={{fontSize:29,fontFamily:"Montserrat", width:100,color:"#01385E",background:"white", position:"absolute",left:0,textAlign:"center",right:0,top:-23,margin:"auto"}}>&#9825;</div>
+                    </div>
+                </div>
             </div>
         );
     }

@@ -1,16 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import '../public/stylesheets/styles.css';
-import { Router, Route, hashHistory, IndexRoute } from 'react-router'
+import { Router, Route, hashHistory, IndexRoute } from 'react-router';
 import App from './App.js';
-import Home from './home/Home.js'
-import Events from './events/Events.js'
-import Registry from './registry/Registry.js'
-import WeddingParty from './weddingparty/WeddingParty.js'
-import Travel from './travel/Travel.js'
-import ThingsToDo from './thingstodo/ThingsToDo.js'
-import Photos from './photos/Photos.js'
-import RSVP from './rsvp/RSVP.js'
+import Home from './home/Home.js';
+import Events from './events/Events.js';
+import Registry from './registry/Registry.js';
+import WeddingParty from './weddingparty/WeddingParty.js';
+import Travel from './travel/Travel.js';
+import ThingsToDo from './thingstodo/ThingsToDo.js';
+import Photos from './photos/Photos.js';
+import RSVP from './rsvp/RSVP.js';
+import Admin from './admin/Admin.js';
+import Login from './login/Login.js';
 
 
 ReactDOM.render(
@@ -24,6 +26,8 @@ ReactDOM.render(
 			<Route path="thingstodo" component={ThingsToDo} />
 			<Route path="photos" component={Photos} />
 			<Route path="rsvp" component={RSVP} />
+			<Route path="login" component={Login} />
+			<Route path="admin%23$" component={Admin} />
 		</Route>
 	</Router>,	
   document.getElementById('root')
